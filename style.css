@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #254b70;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: static;
+    box-shadow: 0 2px 5px gray;
+}
+
+.logo {
+    display: flex;
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #f5d76e;
+}
+
+section {
+    padding: 40px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #dceaf5;
+}
+
+.texto-principal {
+    width: 50%;
+}
+
+.principal h1 {
+    font-size: 35px;
+    color: #254b70;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.imagem-principal {
+    width: 40%;
+    position: relative;
+}
+
+.imagem-principal img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.legenda {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #254b70;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.botao {
+    background-color: #254b70;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #416b91;
+}
+
+h2 {
+    color: #254b70;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+    width: 30%;
+    position: relative;
+}
+
+.card:hover {
+    background-color: #e5f0f8;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #254b70;
+    color: white;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+video {
+    width: 60%;
+}
+
+audio {
+    display: block;
+}
+
+footer {
+    background-color: #254b70;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #f5d76e;
+}
