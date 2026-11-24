@@ -1,182 +1,431 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conscientização sobre o TEA</title>
+    <title>Conexão Azul | Conscientização sobre o TEA</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- CABEÇALHO -->
     <header>
-        <div class="logo">
-            <h2>TEA - Conscientização</h2>
-        </div>
+        <div class="navbar">
+            <a href="#inicio" class="logo">
+                <div class="logo-symbol">∞</div>
+                <div>Conexão Azul</div>
+            </a>
 
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#sobre">Sobre o TEA</a>
-            <a href="#dados">Dados</a>
-            <a href="#midia">Mídia</a>
-        </nav>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre o TEA</a>
+                <a href="#caracteristicas">Características</a>
+                <a href="#inclusao">Inclusão</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#recursos">Recursos</a>
+            </nav>
+        </div>
     </header>
 
-    <section id="inicio" class="principal">
+    <!-- SEÇÃO PRINCIPAL -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-label">
+                    Conscientização • Respeito • Inclusão
+                </div>
 
-        <div class="texto-principal">
-            <h1>Conhecer é o primeiro passo para incluir!</h1>
+                <h1>
+                    Entender as diferenças é
+                    <div>conectar pessoas.</div>
+                </h1>
 
-            <p>
-                O Transtorno do Espectro Autista (TEA) é uma condição
-                do neurodesenvolvimento. Informação, respeito e
-                inclusão fazem a diferença.
+                <p>
+                    O autismo não define uma pessoa por completo. Conhecer o
+                    Transtorno do Espectro Autista é um passo importante para
+                    construir uma sociedade mais acessível, acolhedora e respeitosa.
+                </p>
+
+                <a href="#sobre" class="btn">Conheça o TEA</a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1000&q=80"
+                    alt="Pessoas reunidas em um ambiente de convivência"
+                >
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE O TEA -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <h2 class="section-title">O que é o TEA?</h2>
+
+            <p class="section-description">
+                Informação é uma das principais ferramentas contra o preconceito.
             </p>
 
-            <a href="#sobre" class="botao">Saiba mais</a>
-        </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=80"
+                        alt="Grupo de pessoas interagindo em uma atividade coletiva"
+                    >
+                </div>
 
-        <div class="imagem-principal">
-            <img src="imagens/autismo.jpg" alt="Imagem sobre conscientização do autismo">
+                <div class="about-text">
+                    <h3>Uma forma diferente de perceber o mundo</h3>
 
-            <div class="legenda">
-                Respeito e inclusão
+                    <p>
+                        O Transtorno do Espectro Autista (TEA) é uma condição
+                        relacionada ao desenvolvimento neurológico. Ele influencia
+                        a maneira como uma pessoa se comunica, interage socialmente
+                        e percebe o ambiente ao seu redor.
+                    </p>
+
+                    <p>
+                        O termo <strong>espectro</strong> representa a variedade
+                        de características, necessidades, habilidades e formas de
+                        manifestação do autismo. Cada pessoa autista possui sua
+                        própria experiência e individualidade.
+                    </p>
+
+                    <p>
+                        O autismo não é uma doença contagiosa, e pessoas autistas
+                        não precisam ser tratadas como inferiores ou incapazes.
+                        Respeito, acessibilidade e apoio podem fazer uma grande
+                        diferença em suas vidas.
+                    </p>
+                </div>
             </div>
         </div>
-
     </section>
 
-    <section id="sobre">
+    <!-- CARACTERÍSTICAS -->
+    <section class="characteristics" id="caracteristicas">
+        <div class="container">
+            <h2 class="section-title">Conhecendo as características</h2>
 
-        <h2>O que é o TEA?</h2>
+            <p class="section-description">
+                O autismo pode se manifestar de diferentes maneiras.
+                Algumas características comuns incluem:
+            </p>
 
-        <p>
-            O Transtorno do Espectro Autista é uma condição
-            relacionada ao desenvolvimento do cérebro, que pode
-            influenciar a comunicação, a interação social e o
-            comportamento.
-        </p>
+            <div class="cards">
+                <div class="card card-blue">
+                    <div class="card-icon">💬</div>
+                    <h3>Comunicação</h3>
+                    <p>
+                        Diferentes formas de compreender, expressar sentimentos,
+                        conversar ou utilizar a comunicação verbal e não verbal.
+                    </p>
+                </div>
 
-        <p>
-            Cada pessoa autista possui características próprias,
-            habilidades e necessidades diferentes. Por isso,
-            é importante respeitar as individualidades.
-        </p>
+                <div class="card card-yellow">
+                    <div class="card-icon">🤝</div>
+                    <h3>Interação social</h3>
+                    <p>
+                        Particularidades na interação com outras pessoas, na
+                        interpretação de situações sociais ou na construção de vínculos.
+                    </p>
+                </div>
 
-        <h2>A importância da inclusão</h2>
+                <div class="card card-pink">
+                    <div class="card-icon">🎧</div>
+                    <h3>Sensibilidade sensorial</h3>
+                    <p>
+                        Sensibilidade maior ou menor a estímulos como sons,
+                        luzes, texturas, cheiros, sabores e ambientes movimentados.
+                    </p>
+                </div>
 
-        <div class="cards">
-
-            <div class="card">
-                <h3>Respeito</h3>
-                <p>
-                    Respeitar as diferenças e as individualidades
-                    de cada pessoa.
-                </p>
+                <div class="card card-green">
+                    <div class="card-icon">🔄</div>
+                    <h3>Rotina e interesses</h3>
+                    <p>
+                        Preferência por previsibilidade, repetição, rotinas ou
+                        interesses específicos que podem ser muito significativos.
+                    </p>
+                </div>
             </div>
-
-            <div class="card">
-                <h3>Informação</h3>
-                <p>
-                    Combater o preconceito através do conhecimento.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Inclusão</h3>
-                <p>
-                    Garantir oportunidades e participação
-                    na sociedade.
-                </p>
-            </div>
-
         </div>
-
     </section>
 
-    <section id="dados">
+    <!-- TABELA INFORMATIVA -->
+    <section class="information" id="informacoes">
+        <div class="container">
+            <h2 class="section-title">Mitos e verdades sobre o autismo</h2>
 
-        <h2>Características do TEA</h2>
+            <p class="section-description">
+                Informação correta ajuda a desconstruir estereótipos
+                e promove uma convivência mais inclusiva.
+            </p>
 
-        <p>
-            Algumas características podem estar presentes em pessoas
-            autistas, mas não aparecem necessariamente da mesma forma
-            em todas elas.
-        </p>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Afirmação</th>
+                            <th>Informação correta</th>
+                        </tr>
+                    </thead>
 
-        <table>
+                    <tr>
+                        <td>Todo autista é igual.</td>
+                        <td>
+                            O espectro é diverso. Cada pessoa tem suas
+                            próprias características, habilidades e necessidades.
+                        </td>
+                    </tr>
 
-            <tr>
-                <th>Área</th>
-                <th>Características</th>
-            </tr>
+                    <tr>
+                        <td>Autistas não gostam de interagir.</td>
+                        <td>
+                            Pessoas autistas podem desejar amizades, afeto
+                            e relações sociais, mas ter formas diferentes de
+                            interação ou comunicação.
+                        </td>
+                    </tr>
 
-            <tr>
-                <td>Comunicação</td>
-                <td>Diferentes formas de comunicação e expressão.</td>
-            </tr>
+                    <tr>
+                        <td>O autismo sempre pode ser percebido visualmente.</td>
+                        <td>
+                            O autismo não possui uma aparência física
+                            específica e pode não ser perceptível à primeira vista.
+                        </td>
+                    </tr>
 
-            <tr>
-                <td>Interação social</td>
-                <td>Diferentes maneiras de interagir socialmente.</td>
-            </tr>
+                    <tr>
+                        <td>Autistas não têm sentimentos.</td>
+                        <td>
+                            Pessoas autistas sentem emoções, afeto e empatia,
+                            embora possam expressá-los de maneiras diferentes.
+                        </td>
+                    </tr>
 
-            <tr>
-                <td>Comportamento</td>
-                <td>Interesses específicos e preferência por rotinas.</td>
-            </tr>
+                    <tr>
+                        <td>Inclusão é tratar todos exatamente igual.</td>
+                        <td>
+                            Inclusão significa respeitar diferenças e oferecer
+                            acessibilidade e apoio de acordo com cada necessidade.
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-            <tr>
-                <td>Sensorial</td>
-                <td>Maior ou menor sensibilidade a estímulos.</td>
-            </tr>
-
-        </table>
-
-    </section>
-
-    <section id="midia">
-
-        <h2>Conhecimento e conscientização</h2>
-
-        <div class="galeria">
-
-            <img src="imagens/inclusao.jpg" alt="Representação da inclusão">
-
-            <img src="imagens/respeito.jpg" alt="Representação do respeito">
-
-            <img src="imagens/conscientizacao.jpg" alt="Conscientização sobre o TEA">
-
+            <p class="table-note">
+                * As características variam entre indivíduos. A tabela apresenta
+                informações gerais e não substitui orientação profissional.
+            </p>
         </div>
-
-        <h3>Vídeo sobre o autismo</h3>
-
-        <video controls>
-            <source src="videos/autismo.mp4" type="video/mp4">
-        </video>
-
-        <h3>Áudio sobre conscientização</h3>
-
-        <audio controls>
-            <source src="audio/conscientizacao.mp3" type="audio/mpeg">
-        </audio>
-
     </section>
 
+    <!-- INCLUSÃO -->
+    <section class="inclusion" id="inclusao">
+        <div class="container">
+            <div class="inclusion-content">
+                <div class="inclusion-text">
+                    <h2>Inclusão começa nas nossas atitudes.</h2>
+
+                    <p>
+                        Conscientizar não é apenas conhecer o significado do autismo.
+                        É transformar informação em ações cotidianas que respeitem
+                        a autonomia, a dignidade e as necessidades das pessoas autistas.
+                    </p>
+
+                    <ul>
+                        <li>Respeite as diferentes formas de comunicação.</li>
+                        <li>Não julgue comportamentos que você não compreende.</li>
+                        <li>Evite sobrecarga sensorial quando possível.</li>
+                        <li>Não infantilize pessoas autistas adultas.</li>
+                        <li>Pergunte como pode ajudar, sem presumir necessidades.</li>
+                        <li>Combata comentários preconceituosos e desinformação.</li>
+                        <li>Valorize a autonomia e ouça as próprias pessoas autistas.</li>
+                    </ul>
+                </div>
+
+                <div class="inclusion-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80"
+                        alt="Pessoas trabalhando juntas em uma atividade colaborativa"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <h2 class="section-title">Diversidade que nos conecta</h2>
+
+            <p class="section-description">
+                Um mundo mais acessível é construído quando diferentes
+                pessoas podem participar, conviver e ser respeitadas.
+            </p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80"
+                        alt="Amigos reunidos e sorrindo"
+                    >
+                    <h3>Convivência</h3>
+                    <p>
+                        Relações construídas com respeito, empatia e acolhimento.
+                    </p>
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=800&q=80"
+                        alt="Pessoa participando de uma atividade em grupo"
+                    >
+                    <h3>Participação</h3>
+                    <p>
+                        Todo mundo merece espaço para aprender, contribuir e existir.
+                    </p>
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=800&q=80"
+                        alt="Grupo de amigos compartilhando um momento"
+                    >
+                    <h3>Respeito</h3>
+                    <p>
+                        As diferenças não devem ser barreiras para a conexão humana.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MÍDIA -->
+    <section class="media-section" id="midia">
+        <div class="container">
+            <h2 class="section-title">Aprender também é ouvir</h2>
+
+            <p class="section-description">
+                Conteúdos audiovisuais são uma forma de ampliar o conhecimento
+                e incentivar conversas sobre o espectro autista.
+            </p>
+
+            <div class="media-content">
+                <div class="media-box">
+                    <h3>Vídeo de conscientização</h3>
+
+                    <video controls poster="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" src="video-conscientizacao.mp4">
+                        Seu navegador não suporta a reprodução de vídeo.
+                    </video>
+
+                    <p>
+                        Adicione um vídeo educativo sobre o TEA ao arquivo
+                        video-conscientizacao.mp4 para exibi-lo aqui.
+                    </p>
+                </div>
+
+                <div class="media-box">
+                    <h3>Momento de escuta</h3>
+
+                    <audio controls src="audio-conscientizacao.mp3">
+                        Seu navegador não suporta a reprodução de áudio.
+                    </audio>
+
+                    <p>
+                        Espaço para áudio, podcast ou mensagem de conscientização.
+                        Adicione o arquivo audio-conscientizacao.mp3 na mesma
+                        pasta do site.
+                    </p>
+
+                    <p>
+                        Ouça, aprenda e dê espaço para que pessoas autistas
+                        compartilhem suas próprias experiências.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECURSOS E LINKS -->
+    <section class="links-section" id="recursos">
+        <div class="container">
+            <h2 class="section-title">Continue aprendendo</h2>
+
+            <p class="section-description">
+                A conscientização não termina nesta página.
+                Busque informações confiáveis e conheça outras perspectivas.
+            </p>
+
+            <div class="links-content">
+                <div class="resource-link">
+                    <h3>Organização Mundial da Saúde</h3>
+                    <p>Informações sobre o autismo, desenvolvimento e saúde.</p>
+                    <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">
+                        Acessar o site →
+                    </a>
+                </div>
+
+                <div class="resource-link">
+                    <h3>Ministério da Saúde</h3>
+                    <p>Conheça informações e orientações sobre saúde no Brasil.</p>
+                    <a href="https://www.gov.br/saude/pt-br" target="_blank" rel="noopener noreferrer">
+                        Acessar o site →
+                    </a>
+                </div>
+
+                <div class="resource-link">
+                    <h3>Autismo e inclusão</h3>
+                    <p>Aprenda, compartilhe informações e promova o respeito.</p>
+                    <a href="https://www.autismo.org.br/" target="_blank" rel="noopener noreferrer">
+                        Conhecer mais →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
     <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>∞ Conexão Azul</h3>
+                <p>
+                    Um espaço de informação, conscientização e respeito
+                    à diversidade do espectro autista.
+                </p>
+            </div>
 
-        <h2>Conscientização sobre o TEA</h2>
+            <div class="footer-column">
+                <h3>Navegação</h3>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre o TEA</a></li>
+                    <li><a href="#caracteristicas">Características</a></li>
+                    <li><a href="#inclusao">Inclusão</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                </ul>
+            </div>
 
-        <p>Informação, respeito e inclusão.</p>
+            <div class="footer-column">
+                <h3>Contato</h3>
+                <p>Projeto educativo de conscientização.</p>
+                <p>Email: contato@conexaoazul.com</p>
+                <p>Brasil</p>
+            </div>
+        </div>
 
-        <p>Contato: conscientizacao@exemplo.com</p>
-
-        <p>
-            <a href="#inicio">Voltar ao início</a>
-        </p>
-
-        <p>© 2026 - Todos os direitos reservados.</p>
-
+        <div class="footer-bottom">
+            <p>&copy; 2026 Conexão Azul — Todos os direitos reservados.</p>
+            <p>Conscientizar é acolher. Incluir é respeitar.</p>
+        </div>
     </footer>
 
 </body>
 </html>
+ 
